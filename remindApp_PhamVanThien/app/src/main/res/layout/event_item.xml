@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="14"
+    android:gravity="center"
+    android:id="@+id/alarm_item"
+    android:layout_margin="30dp">
+    <LinearLayout
+
+        android:layout_weight="12"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtTitle"
+            android:gravity="start"
+            android:text="Sinh Nhật"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/txtDes"
+            android:text="America"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/txtDate"
+            android:text="abc"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:weightSum="2"
+        android:layout_height="100dp">
+        <ImageButton
+            android:id="@+id/imgBtnDelete"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/ic_baseline_delete_forever_24"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
